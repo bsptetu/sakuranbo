@@ -1,0 +1,38 @@
+
+/* ここからは、テキストフォームのデザインに関する設定です。 */
+#_111_input{
+    position: absolute; /* */
+	z-index:999; /* */
+	/* テキストフォームの文字の大きさはプラグインコマンドで指定します */
+	width : 8.5em; /* ←この数字はウインドウの幅を表しています */
+	height : 2.5em; /* ←この数字はウインドウの高さを表しています */
+
+	font-weight:bold; 
+    color: black://#f8f8f8;
+    text-shadow: black 0.01em 0.01em 0em, black -0.01em 0.01em 0em,
+                 black 0.01em -0.01em 0em, black -0.01em -0.01em 0em;
+    font-family: GameFont;
+
+    border:solid 0.125em rgba(150,120,120, 1);
+    border-radius: 0.2em;
+    padding: 0.04em 0em;
+    background: rgba(255,255,255, 1);//rgba(68,47,47, 1);
+}
+/* ここからは、決定ボタンのデザインに関する設定です。 */
+#_111_submit{
+	position: absolute; /* */
+	z-index:999; /* */
+
+	font-weight:bold; 
+    color: black://#f8f8f8;
+    text-shadow: black 0.01em 0.01em 0em, black -0.01em 0.01em 0em,
+                 black 0.01em -0.01em 0em, black -0.01em -0.01em 0em;
+    font-family: GameFont;
+
+    border:solid 0.125em rgba(0,0,0, 1);
+    border-radius: 0.2em;
+    padding: 0.24em 1.0em;
+    background: rgba(255,255,255, 1);
+}
+
+
